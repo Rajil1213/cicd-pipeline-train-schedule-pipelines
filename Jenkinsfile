@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo "Building the project with gradle"
         sh './gradlew build'
-        archiveArtifacts artifacts: 'dist/trainSchedule.zip
+        archiveArtifacts artifacts: 'dist/trainSchedule.zip'
       }
     }
   }
